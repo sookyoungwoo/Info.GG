@@ -1,0 +1,111 @@
+@import "../styles/common.scss";
+
+body {
+    margin: 0;
+}
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F1722;
+    color: white;
+    
+    .NavBar_Logo {
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 3%;
+        padding-left: 0;
+    }
+
+    .NavBar_Menu {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        margin-right: 5%;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        
+        li{
+            padding: 8px 50px;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1; 
+        }
+
+        .dropdown-content p {
+            color: black;
+            padding: 12px 20px;
+            text-decoration: none;
+            display: block;
+            margin: 0;
+            cursor: pointer;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+            text-align: center;
+            color: black;
+            width: 180px;  
+        }
+
+        .dropdown:hover .drop_Menu {
+            background-color: gray;
+        }
+
+        #dropdown2:hover .dropdown-content {
+            width: 140px;
+        }
+
+        #dropdown3:hover .dropdown-content{
+            width: 247px;
+        }
+    }
+    .NavBar_Login {
+        padding: 0;
+        margin-right: 3%;
+    }
+    
+}
+
+
+@media screen and (max-width: 980px) {
+    .NavBar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 8px 24px;
+    }
+
+    .NavBar_Menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+        .dropdown {
+            position: relative;
+            display: inline;
+        }
+    }
+
+    .NavBar_Menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

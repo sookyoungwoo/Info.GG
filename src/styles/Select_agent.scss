@@ -1,0 +1,41 @@
+@import "../styles/common.scss";
+
+body {
+    background-color: lightgray;
+}
+
+.agent {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    img{
+        transition: all 0.1s linear;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 30%;
+    }
+    img:hover {
+        transform: scale(1.4);
+    }
+    h3 {
+        margin: 5px;
+        padding: 0;
+    }
+    
+}
+
+
+/*
+.defense,
+.attack {
+    width: 150px;
+    height: 75px;
+    margin: 0px 10px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.defense:hover,
+.attack:hover {
+    background-color: gray;
+}*/
