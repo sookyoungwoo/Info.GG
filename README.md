@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Info.GG
+<h3>라이엇 게임에 관한 정보들을 담은 웹 사이트</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h5>목적 | 라이엇 게임을 플레이하면서 불편했던 점과 필요했던 시스템을 모아서 유저들에게 편리함을 제공한다.</h5>
 
-## Available Scripts
+<h5>Info.GG 주소 : </h5>
 
-In the project directory, you can run:
+## 👩‍💻 개발자 👨‍💻
+<h4>• 우수경 : https://github.com/sookyoungwoo</h4>
+<h4>• 윤종혁 : https://github.com/YJH2848</h4>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🖥 웹 소개
+<h4>평소 라이엇 게임의 일종인 '발로란트'를 즐겨하면서 불편했던 점과 필요했던 시스템을 토대로 구축하게 되었다.</h4>
+<h4>가장 기본적인 요원들의 스킬 사용법과 맵의 구조를 이용한 장점들을 통해 알고 있으면 좋은 점을 알려주고,</h4>
+<h4>게임을 플레이 하면서 가장 불편했던 점인 조준점 사이트를 구축하여 다양한 조준점을 보여주고 코드를 공유해준다.</h4>
+<h4>그리고, 사람들이 모두 필요로 하지만, 어디서도 잘 알려주지 않았던, 영어나 일본어를 쓰는 아시아 서버에서 쓸 수 있는</h4>
+<h4>표현들을 보여주는 사이트를 구축하였다.</h4>
+  
+## 🤷‍♀️ 새로 알게 된 점
+<h4>live share를 사용하여 동시에 작업이 가능한 프로그램을 이용하였는데</h4>
+<h4>빠른 피드백이 가능하고, 서로의 코드를 금방 파악할 있다는 장점이 있었지만</h4>
+<h4>공유한 사람이 vs code를 사용하지 않을 때는 공유받는 사람은 쓰지 못하고,</h4>
+<h4>서로 터미널을 같이 쓰다보니 불편한 점이 많았다.</h4>
