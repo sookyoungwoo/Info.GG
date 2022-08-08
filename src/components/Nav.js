@@ -14,7 +14,7 @@ export default function Select() {
                         <li className="drop_Menu">발로란트</li>
                         <div className="dropdown-content">
                             <Link to="/Select" style={{ textDecoration: 'none', color: 'white' }}><p>요원별 꿀팁</p></Link>
-                            <Link to="/Place" style={{ textDecoration: 'none', color: 'white' }}><p>맵별 존버 자리</p></Link>
+                            <Link to="/Aim" style={{ textDecoration: 'none', color: 'white' }}><p>조준점</p></Link>
                         </div>
                     </div>
                     <div className="dropdown" id="dropdown2">

@@ -39,6 +39,10 @@ body {
             z-index: 1; 
         }
 
+        .dropdown-content p:hover {
+            background-color: lightgray;
+        }
+
         .dropdown-content p {
             color: black;
             padding: 12px 20px;

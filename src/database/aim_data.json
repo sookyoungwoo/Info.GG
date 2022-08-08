@@ -1,0 +1,14 @@
+{
+    "clover": [
+        {
+            "name": "clover",
+            "img" : "../../public/aim_image/네잎클로버.png"
+        }
+    ],
+    "minicross": [
+        {
+            "name": "minicross",
+            "img" : "../../public/aim_image/미니십자가.png"
+        }
+    ]
+}
