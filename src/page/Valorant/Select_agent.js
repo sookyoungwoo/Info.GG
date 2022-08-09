@@ -50,7 +50,7 @@ export default function Select() {
                     <img className="agent2" src={Duelist[0].reyna} />
                     <img className="agent3" src={Duelist[0].raze} />
                     <img className="agent4" src={Duelist[0].yoru} />
-                    <Link to="/Select/Place" style={{ textDecoration: 'none', color: 'white' }}>
+                    <Link to="/Select/JPlace" style={{ textDecoration: 'none', color: 'white' }}>
                         <img className="agent5" src={Duelist[0].jett} />
                     </Link>
                     <img className="agent6" src={Duelist[0].phoenix} />
@@ -66,7 +66,9 @@ export default function Select() {
                 <hr />
                 <div className="controller">
                     <h3>전략가</h3>
-                    <img className="agent11" src={Controller[0].viper} />
+                    <Link to="/Select/VPlace" style={{ textDecoration: 'none', color: 'white' }}>
+                        <img className="agent11" src={Controller[0].viper} />
+                    </Link>
                     <img className="agent12" src={Controller[0].omen} />
                     <img className="agent13" src={Controller[0].brim} />
                     <img className="agent14" src={Controller[0].astra} />

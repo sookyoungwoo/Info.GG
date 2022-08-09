@@ -9,7 +9,7 @@ body{
     top: 30px;
     .aim_tit{
         background-color: $main-navy;
-        width: 170px;
+        width: 165px;
         border-radius: 10px;
         box-shadow: 0 5px 14px 0 #000a;
         .aim_div{
@@ -24,9 +24,10 @@ body{
             p{
                 color: white;
                 font-size: 23px;
-                font-weight: 600;
+                font-weight: 550;
             }
         }
+        margin: 0px 10px;
     }
     .aim_tit:hover {
         transform: scale(1.1);
