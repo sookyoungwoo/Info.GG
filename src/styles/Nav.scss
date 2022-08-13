@@ -75,7 +75,15 @@ body {
         padding: 0;
         margin-right: 3%;
     }
-    
+    .NavBar_Login{
+        button{
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
 }
 
 

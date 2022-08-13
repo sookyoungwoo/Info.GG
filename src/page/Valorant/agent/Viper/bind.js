@@ -1,4 +1,4 @@
-import Nav from "../../../components/Nav"
+import Nav from "../../../../components/Nav"
 
 export default function Bind() {
     return (
@@ -6,7 +6,7 @@ export default function Bind() {
             <header>
                 <Nav />
             </header>
-            <div>(제트)내용은 나중에</div>
+            <div>(바이퍼)내용은 나중에</div>
         </>
     )
 }

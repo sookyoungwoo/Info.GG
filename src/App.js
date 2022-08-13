@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import JPlace from "./page/Valorant/Jett/Select_Jett_map"
-import VPlace from "./page/Valorant/Viper/Select_Viper_map"
+import JPlace from "./page/Valorant/agent/Jett/Select_Jett_map"
+import VPlace from "./page/Valorant/agent/Viper/Select_Viper_map"
 import Nav from "./components/Nav";
 import Select from "./page/Valorant/Select_agent";
 import Chat from "./page/FeedBack/Chat";
@@ -8,8 +8,8 @@ import Lecture from "./page/FeedBack/Lecture";
 import English from "./page/Word/english";
 import Japan from "./page/Word/japan";
 import Aim from "./page/Valorant/Select_aim";
-import Jett_Bind from "./page/Valorant/Jett/bind"
-import Viper_Bind from "./page/Valorant/Viper/bind"
+import Jett_Bind from "./page/Valorant/agent/Jett/bind"
+import Viper_Bind from "./page/Valorant/agent/Viper/bind"
 
 export default function App() {
   return (

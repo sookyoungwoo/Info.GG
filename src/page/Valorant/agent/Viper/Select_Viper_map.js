@@ -1,7 +1,6 @@
-
 import { Link } from "react-router-dom";
-import "../../../styles/Select_map.scss";
-import Nav from "../../../components/Nav";
+import "../../../../styles/Select_map.scss";
+import Nav from "../../../../components/Nav";
 
 const bind = "../map_image/바인드.png";
 const breeze = "../map_image/브리즈.png";
@@ -19,7 +18,7 @@ export default function Select() {
                 <Nav />
             </header>
             <div className="map">
-                <Link to="/Select/JPlace/Jett_bind" style={{ textDecoration: 'none', color: 'white' }}><img src={bind} /></Link>
+                <Link to="/Select/VPlace/Viper_bind" style={{ textDecoration: 'none', color: 'white' }}><img src={bind} /></Link>
                 <img src={breeze} />
                 <img src={split} />
                 <img src={icebox} />
@@ -29,7 +28,7 @@ export default function Select() {
                 <img src={haven} />
             </div>
             <div className="agent_name">
-                제트
+                바이퍼
             </div>
         </>
 
