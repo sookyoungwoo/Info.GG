@@ -14,27 +14,35 @@ const haven = "../map_image/헤이븐.png"
 
 export default function Select() {
     return (
-        <>
+        <body>
             <header>
                 <Nav />
             </header>
+            <div  className="Map_body">
+            <div className="agent_image">
+                <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png" />
+            </div>
             <div className="map_tit">
                 <div className="agent_name">
+                    <div className="line"></div>
                     <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt213441880cf2cdf5/5eaa06851b51e36d7c1b61d4/Duelist.png"/>
-                    <p>제트</p>
+                    <span>제트</span>
                 </div>
-                <div className="map">
-                  <Link to="/Select/JPlace/Jett_bind" style={{ textDecoration: 'none', color: 'white' }}><img src={bind} /></Link>
-                    <img src={breeze} />
-                    <img src={split} />
-                    <img src={icebox} />
-                    <img src={ascent} />
-                    <img src={pearl} />
-                    <img src={fracture} />
-                    <img src={haven} />
+                <div className="map_t">
+                    <div className="map">
+                      <Link to="/Select/JPlace/Jett_bind" style={{ textDecoration: 'none', color: 'white' }}><img src={bind} /></Link>
+                        <img src={breeze} />
+                        <img src={split} />
+                        <img src={icebox} />
+                        <img src={ascent} />
+                        <img src={pearl} />
+                        <img src={fracture} />
+                        <img src={haven} />
+                    </div>
                 </div>
             </div>
-        </>
+            </div>
+        </body>
 
 
     )

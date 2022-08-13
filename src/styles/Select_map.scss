@@ -1,28 +1,63 @@
 @import "../styles/common.scss";
+.Map_body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.agent_image{
+    position: relative;
 
+    img{
+        width: 550px;
+        padding-left: 10px;
+    }
+}
 .map_tit{
-    text-align: center;
+    
     .agent_name{
-        img{//요원 포지션 사진
-            
-            width: 50px;
-            height: 5%;
+        position: relative;
+        left: 15px;
+        top: 130px;
+        
+        .line{
+            border-left: 7px solid white;
+            height: 40px;
+            float: left;
         }
-        p{//요원 이름
+        img{//요원 포지션 사진
+            width: 40px;
+            height: 5%;
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        span{//요원 이름
             color: white;
-            font-size: 50px;
+            font-size: 45px;
+            font-weight: 600;
+            text-align: left;
+            position: relative;
+            bottom: 12px;
 
         }
     }   
-    .map{
+    .map_t{
+        padding-top: 130px;
+        margin: 0 auto;
+        width: 1200px;
         position: relative;
-
-        img{
-            width: 400px;
-            padding: 10px;
-            &:hover{
+        left: 0px;
+        .map{
+            
+            img{
+                width: 270px;
+                padding: 15px;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
+            
         }
-        
     }
 }

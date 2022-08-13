@@ -18,7 +18,7 @@ export default function Select() {
             <div className="aim">
                 <CopyToClipboard text="0;P;c;7;h;0;f;0;0t;9;0l;1;0o;1;0a;1;0f;0;1t;3;1l;1;1o;4;1a;1;1m;0;1f;0">
                     <div className="aim_tit">
-                           <div className="aim_div">
+                            <div className="aim_div">
                             <img className="aim_img" src={clover} />
                             <p>clover</p>
                         </div>
@@ -32,7 +32,6 @@ export default function Select() {
                         </div>
                     </div> 
                 </CopyToClipboard>
-                
             </div>
         </>
     )
