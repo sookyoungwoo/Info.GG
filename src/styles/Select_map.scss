@@ -4,18 +4,22 @@
     text-align: center;
     .agent_name{
         img{//요원 포지션 사진
-
+            
+            width: 50px;
+            height: 5%;
         }
         p{//요원 이름
-        
+            color: white;
+            font-size: 50px;
+
         }
     }   
     .map{
+        position: relative;
+
         img{
-            width: 10%;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 40px 50px;
+            width: 400px;
+            padding: 10px;
             &:hover{
             }
         }
