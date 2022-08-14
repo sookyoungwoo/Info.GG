@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import "../../../../styles/Select_map.scss";
 import Nav from "../../../../components/Nav";
@@ -13,24 +14,35 @@ const haven = "../map_image/헤이븐.png"
 
 export default function Select() {
     return (
-        <>
+        <body>
             <header>
                 <Nav />
             </header>
-            <div className="map">
-                <Link to="/Select/VPlace/Viper_bind" style={{ textDecoration: 'none', color: 'white' }}><img src={bind} /></Link>
-                <img src={breeze} />
-                <img src={split} />
-                <img src={icebox} />
-                <img src={ascent} />
-                <img src={pearl} />
-                <img src={fracture} />
-                <img src={haven} />
+            <div  className="Map_body">
+            <div className="agent_image">
+                <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png" />
             </div>
-            <div className="agent_name">
-                바이퍼
+            <div className="map_tit">
+                <div className="agent_name">
+                    <div className="line"></div>
+                    <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt63e21ca9443dce8e/5eb270f43b09c042ddca1353/Controller.png"/>
+                    <span>바이퍼</span>
+                </div>
+                <div className="map_t">
+                    <div className="map">
+                      <Link to="/Select/VPlace/Viper_bind" style={{ textDecoration: 'none', color: 'white' }}><img src={bind} /></Link>
+                        <img src={breeze} />
+                        <img src={split} />
+                        <img src={icebox} />
+                        <img src={ascent} />
+                        <img src={pearl} />
+                        <img src={fracture} />
+                        <img src={haven} />
+                    </div>
+                </div>
             </div>
-        </>
+            </div>
+        </body>
 
 
     )

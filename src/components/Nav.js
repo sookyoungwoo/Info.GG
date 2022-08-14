@@ -32,9 +32,6 @@ export default function Select() {
                         </div>
                     </div>
                 </ul>
-                <div className="NavBar_Login">
-                    <button>로그인</button>
-                </div>
             </nav>
         </>
     )

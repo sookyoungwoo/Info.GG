@@ -29,7 +29,7 @@
     .agent_name{
         position: relative;
         left: 15px;
-        top: 130px;
+        top: 140px;
         
         .line{
             border-left: 7px solid white;
@@ -54,17 +54,16 @@
         }
     }   
     .map_t{
-        padding-top: 130px;
+        padding-top: 140px;
         margin: 0 auto;
         width: 1200px;
         position: relative;
         left: 0px;
         .map{
-            
             img{
                 width: 270px;
                 padding: 15px;
-                cursor: po;
+                cursor: pointer;
                 &:hover{
                     transform: scale(1.1);
                 }

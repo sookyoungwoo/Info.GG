@@ -1,36 +1,38 @@
 @import "../styles/common.scss";
-body{
-}
-
-.aim{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 30px;
-    .aim_tit{
-        background-color: $main-navy;
-        width: 165px;
-        border-radius: 10px;
-        box-shadow: 0 5px 14px 0 #000a;
-        .aim_div{
-            border: 1px solid $main-gray;
-            text-align: center;
-            img{
-                transition: all 0.1s linear;
-                margin-top: 20px;
-                cursor: pointer;
-                border-radius: 10%;
-                width: 120px;
+.map_aim{
+    background-color: $main-beige;
+    height: 100vh;
+    .aim{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 30px;
+        .aim_tit{
+            background-color: $main-navy;
+            width: 165px;
+            border-radius: 10px;
+            box-shadow: 0 5px 14px 0 #000a;
+            .aim_div{
+                border: 1px solid $main-gray;
+                border-radius: 10px;
+                text-align: center;
+                img{
+                    transition: all 0.1s linear;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    border-radius: 10%;
+                    width: 120px;
+                }
+                p{
+                    color: white;
+                    font-size: 23px;
+                    font-weight: 550;
+                }
             }
-            p{
-                color: white;
-                font-size: 23px;
-                font-weight: 550;
-            }
+            margin: 0px 10px;
         }
-        margin: 0px 10px;
-    }
-    .aim_tit:hover {
-        transform: scale(1.1);
+        .aim_tit:hover {
+            transform: scale(1.1);
+        }
     }
 }

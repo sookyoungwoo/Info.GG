@@ -11,7 +11,7 @@ export default function Select() {
 
     
     return (
-        <>
+        <body className="map_aim">
             <header>
                 <Nav />
             </header>
@@ -33,6 +33,6 @@ export default function Select() {
                     </div> 
                 </CopyToClipboard>
             </div>
-        </>
+        </body>
     )
 }
